@@ -1,0 +1,50 @@
+/* ----- contacto.html - formulario de contacto ----- Inicio */
+
+.contenedorFormularioContacto { 
+  padding: 30px 50px 50px 50px; 
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 97%;  
+  margin: auto;
+  background-color: white;
+  border: 3px solid lightseagreen;
+}
+
+/*** Contact ***/
+@media (min-width: 300px) {
+  #input-nombreApellido, #input-telefonoContacto, #input-email, #input-mensaje {
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 97%;  
+    margin: auto;
+  }
+}
+
+@media (min-width: 992px) {
+  #input-nombreApellido, #input-telefonoContacto, #input-email, #input-mensaje {
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 97%;  
+    margin: auto;
+  }  
+
+  .contact-text  {
+      padding-left: calc(((100% - 960px) / 2) + .75rem);
+  }
+}
+
+@media (min-width: 1200px) {
+  #input-nombreApellido, #input-telefonoContacto, #input-email, #input-mensaje {
+    width: 97%;
+  }
+}
+
+@media (min-width: 1400px) {
+  .contact-text  {
+      padding-left: calc(((100% - 1320px) / 2) + .75rem);
+  }
+}/* ----- contacto.html - formulario de contacto ----- Fin */
